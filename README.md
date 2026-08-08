@@ -173,7 +173,18 @@ js/app.js
 
 ## ✍️ Observaciones
 
-Espacio para comentarios, dificultades encontradas, mejoras implementadas o aprendizajes obtenidos durante el desarrollo del laboratorio.
+*Espacio para comentarios, dificultades encontradas, mejoras implementadas o aprendizajes obtenidos durante el desarrollo del laboratorio.*
+
+### Comentarios, dificultades, mejoras y aprendizajes
+
+Durante la revisión final del laboratorio se identificó una oportunidad de mejora relacionada con la seguridad de las credenciales y configuraciones de Firebase. Aunque la estructura solicitada para el laboratorio incluía el archivo de configuración, se consideró importante evitar publicar directamente las API Keys y demás valores de configuración en el repositorio (al momento de subirlo la primera vez me dió error).
+
+Como mejora, se agregó el archivo de configuración real al `.gitignore` y se incorporó un archivo de ejemplo (`firebase-config.example.js`) con valores de referencia, permitiendo mantener la estructura requerida y, al mismo tiempo, evitar la exposición innecesaria de información de configuración.
+
+Esta modificación implicó volver a revisar y subir el proyecto al repositorio para asegurar que los archivos sensibles no fueran incluidos en el control de versiones.
+
+Como aprendizaje principal, se reforzó la importancia de revisar aspectos de seguridad antes de publicar un proyecto, incluso cuando determinados valores de configuración sean necesarios para el funcionamiento de la aplicación.
+
 
 ---
 
