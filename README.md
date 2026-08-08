@@ -37,6 +37,14 @@ El objetivo principal es comprender el funcionamiento de una plataforma **Backen
 
 ---
 
+## 🚀 Aplicación desplegada
+
+La aplicación se encuentra disponible en Netlify:
+
+✨ [**Ver aplicación en Netlify →**](https://lab-auth-firebase-mgmarce.netlify.app/)
+
+---
+
 ## 🎯 Objetivos del Laboratorio
 
 * Comprender el concepto de Backend as a Service (BaaS).
@@ -78,11 +86,11 @@ firebase-auth-lab/
 
 ## 🚀 Funcionalidades Implementadas
 
-* [ ] Registro de usuarios
-* [ ] Inicio de sesión
-* [ ] Gestión de sesión
-* [ ] Protección de páginas privadas
-* [ ] Cierre de sesión
+* [x] Registro de usuarios
+* [x] Inicio de sesión
+* [x] Gestión de sesión
+* [x] Protección de páginas privadas
+* [x] Cierre de sesión
 
 ---
 
