@@ -120,15 +120,42 @@ js/app.js
 
 ### Registro de Usuario
 
-Agregar captura aquí.
+1. Se valida que usuarios existen
+![alt text](image.png)
+
+2. Se redirige a la pantalla de registro y se ingresa usuario y contraseña
+![alt text](image-2.png)
+
+3. Se da clic en el boton de crear cuenta y nos notifica
+![alt text](image-3.png)
+
+4. Validamos en firebase si existe el correo que se acaba de ingresar
+![alt text](image-4.png)
 
 ### Inicio de Sesión
 
-Agregar captura aquí.
+1. Iniciamos sesión con el correo que acabamos de ingresar
+![alt text](image-6.png)
+
+2. Nos notifica que se ha conectado exitosamente
+![alt text](image-7.png) 
+
+3. Nos manda a la pantalla del dashboard
+![alt text](image-8.png)
+
+4. Cerramos sesión
+![alt text](image-9.png)
 
 ### Dashboard
 
-Agregar captura aquí.
+1. Intentamos ingresar a la url del dashboard desde un navegador incognito
+![alt text](image-10.png)
+
+2. Como no se ha iniciado sesión nos manda al index
+![alt text](image-11.png)
+
+3. Ahora sí, iniciamos sesión y nos muestra el correo con el que hemos ingresado
+![alt text](image-12.png)
 
 ---
 
